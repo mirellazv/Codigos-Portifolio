@@ -1,0 +1,14 @@
+#include <iostream>
+#include <string>
+using namespace std;
+int main()
+{
+int b;
+double c;
+cout << "Qual a sua idade?";
+cin >> b;
+cout << "Qual é a sua altura?";
+cin >> c;
+cout << "Sua idade é "<< b <<" e a sua altura é "<< c << endl;
+return 0;
+}
