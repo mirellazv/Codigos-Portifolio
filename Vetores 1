@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+int main() {
+int precoCarros[7] = {148000, 575000, 850000, 160000, 320000, 120000, 40000};
+cout << "Precos dos carros (valores inteiros):" << endl;
+for(int i = 0; i < 7; i++) {
+cout << "Carro " << i + 1 << ": R$ " << precoCarros[i] << endl;
+}
+return 0;
+}
+
+#include <iostream>
+#include <string>
+using namespace std;
+int main() {
+string alunos[10] = {
+"Carlos", "Ana", "Lucas", "Julia", "Pedro",
+"Mariana", "Gustavo", "Beatriz", "Ricardo", "Sofia"
+};
+double notas[10] = {8.5, 9.0, 7.2, 6.8, 9.5, 8.0, 5.5, 10.0, 7.5, 9.1};
+cout << "Aluno 5: " << alunos[4] << " - Nota: " << notas[4] << endl;
+return 0;
+}
