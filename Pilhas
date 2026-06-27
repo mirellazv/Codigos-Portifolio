@@ -1,0 +1,72 @@
+#include <iostream>
+using namespace std;
+int main() {
+int laranjasBase = 5;
+double precoBase = 10;
+int n;
+cout << "Quantas laranjas voce deseja comprar? ";
+cin >> n;
+double precoUnitario = precoBase / laranjasBase;
+double precoTotal = n * precoUnitario;
+cout << "Se 5 laranjas custam 10 reais, cada uma custa " << precoUnitario << " reais." <<
+endl;
+cout << "Logo, " << n << " laranjas custarao: R$ " << precoTotal << endl;
+return 0;
+}
+
+#include <iostream>
+using namespace std;
+int main() {
+int numero = 42;
+char letra = 'A';
+double decimal = 15.75;
+cout << "Valor do int: " << numero << endl;
+cout << "Valor do char: " << letra << endl;
+cout << "Valor do double: " << decimal << endl;
+return 0;
+}
+
+#include <iostream>
+using namespace std;
+int soma(int a,int b) {
+return a+b;
+}
+int main() {
+int resultado = soma(3,9);
+cout << "A soma é:" << resultado << endl;
+return 0;
+}
+
+#include <iostream>
+using namespace std;
+int multiplicacao(int a,int b) {
+return a*b;
+}
+int main() {
+int resultado = multiplicacao(3,9);
+cout << "A Multiplicacao é:" << resultado << endl;
+return 0;
+}
+
+#include <iostream>
+using namespace std;
+int mediaaritmetica(int a,int b,int c) {
+return (a+b+c)/3;
+;
+}
+int main() {
+int resultado = mediaaritmetica(9,9,9);
+cout << "A Media Aritmetica é:" << resultado << endl;
+return 0;
+}
+
+#include <iostream>
+using namespace std;
+int main() {
+double largura, altura, area;
+largura = 9.5;
+altura = 8.9;
+area = largura * altura;
+cout << "A area total do retangulo é: " << area << endl;
+return 0;
+}
