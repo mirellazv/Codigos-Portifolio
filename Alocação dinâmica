@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+int main ()
+{
+int a = 100;
+cout << sizeof(a) << endl;
+return 0;
+}
+
+#include <iostream>
+using namespace std;
+int main ()
+{
+int *p=new int;
+*p=10;
+cout << *p << endl;
+delete p;
+return 0;
+}
