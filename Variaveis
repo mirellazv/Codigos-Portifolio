@@ -1,0 +1,51 @@
+#include <iostream>
+using namespace std;
+int main() {
+cout << "Rebeca tem 18 anos e 1.62 cm de altura" << endl;
+return 0;
+}
+
+#include <iostream>
+using namespace std;
+int main() {
+string a="Curitiba";
+string b="Florianópolis";
+cout << "Nasci na cidade de " << a << ", mas atualmente moro em " << b << endl ;
+return 0;
+}
+
+#include <iostream>
+using namespace std;
+int main() {
+bool luzAcesa = false;
+if (luzAcesa) { cout << "A luz esta ligada." << endl; }
+else { cout << "A luz esta desligada." << endl;
+return 0;
+}
+
+#include <iostream>
+using namespace std;
+int main() {
+double saldo = 500.75;
+if (saldo < 0) { cout << "Saldo negativo!" << endl; }
+else { cout << "Saldo positivo." << endl;
+return 0;
+}
+
+#include <iostream>
+using namespace std;
+int main() {
+int a = 50;
+int b = 50;
+int soma = a + b;
+cout << "A soma é " << soma << endl ;
+return 0;
+}
+
+#include <iostream>
+using namespace std;
+int main() {
+char a='K';
+cout << "Letra " << a << endl ;
+return 0;
+}
