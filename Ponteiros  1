@@ -1,0 +1,37 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+int *ponteiro;
+int valor = 12;
+ponteiro = &valor;
+cout << ponteiro << endl;
+cout << *ponteiro << endl;
+return 0;
+}
+
+#include <iostream>
+using namespace std;
+void incrementar(int *x){
+(*x)++;
+}
+int main (){
+int valor = 12;
+cout << "Valor antes:" << valor << endl;
+incrementar(&valor);
+cout << "Valor depois:" << valor << endl;
+return 0;
+}
+
+#include <iostream>
+using namespace std;
+void dobrar(int *p) {
+*p = (*p) * 2;
+}
+int main() {
+int numero = 25;
+cout << "Valor original: " << numero << endl;
+dobrar(&numero);
+cout << "Valor apos a funcao: " << numero << endl;
+return 0;
+}
